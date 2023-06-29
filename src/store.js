@@ -3,8 +3,8 @@ import counterReducer from './features/counterSlice'
 import todoReducer from './features/todoSlice'
 
 export const store = configureStore({
-    reducer: {
-        counter: counterReducer,
-        todos: todoReducer
-    }
-})
+  reducer: {
+    counter: counterReducer,
+    todo: todoReducer,
+  },
+});
